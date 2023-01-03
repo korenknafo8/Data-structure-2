@@ -6,5 +6,15 @@ System::System(int roads_size)
 	Road* roads_ = new Road[roads_size];
 
 	for (int index = 0; index < roads_size; index++)
+	{
 		roads_->setMin(UN_INITIALIZED);
+		roads_->setHeapIndex(UN_INITIALIZED);
+
+	}
+		
+}
+
+void System::AddBridge(int road, float height)
+{
+
 }
