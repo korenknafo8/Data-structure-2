@@ -139,12 +139,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Exceptions.cpp" />
     <ClCompile Include="heap.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="road.cpp" />
     <ClCompile Include="system.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Exceptions.h" />
     <ClInclude Include="heap.h" />
     <ClInclude Include="road.h" />
     <ClInclude Include="system.h" />
